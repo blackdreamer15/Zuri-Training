@@ -23,3 +23,30 @@ computerChoice = random.choice(optionList)
 print("\nYou chose ", userChoice, " and computer chose ", computerChoice, ".\n")
 
 
+# CHECK TO SEE THE OUTCOME
+if userChoice == computerChoice:
+    print("It's a tie!\n")
+    
+elif userChoice == 'R' || 'r':
+    if computerChoice == 'S':
+        print(" You win!Rock smashes scissors!\n")
+    else:
+        print("You lose! Paper covers rock!\n")
+
+elif userChoice == 'P' || 'p':
+    if computerChoice == 'R':
+        print(" You win!Paper covers rock!\n")
+    else:
+        print("You lose! Scissors cuts paper!\n")
+
+elif userChoice == 'S' || 's':
+    if computerChoice == 'P':
+        print("You win! Scissors cuts paper!\n")
+    else:
+        print("You lose! Rock smashes scissors!\n")
+
+
+
+
+
+    
