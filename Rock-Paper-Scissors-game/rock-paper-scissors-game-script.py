@@ -12,3 +12,14 @@ if(initialInput==1):
             +"Rock(R)  vs  Scissor(S)  ->  Rock(R) wins \n"
             +"Paper(P) vs  Scissor(S)  ->  Scissor(S) wins \n")
 
+# List of options
+optionList = ['R', 'P', 'S']
+
+# Taking user's choice and randomize computer's choice
+userChoice = input("Enter your choice (R for rock, P for paper, S for scissors) ::\t")
+computerChoice = random.choice(optionList)
+
+# Print the choice made
+print("\nYou chose ", userChoice, " and computer chose ", computerChoice, ".\n")
+
+
