@@ -30,13 +30,13 @@ while True:
         
     elif(userChoice == 'R'):
         if computerChoice == 'S':
-            print(" You win!Rock smashes scissors!\n")
+            print(" You win! Rock smashes scissors!\n")
         else:
             print("You lose! Paper covers rock!\n")
 
     elif(userChoice == 'P'):
         if computerChoice == 'R':
-            print(" You win!Paper covers rock!\n")
+            print(" You win! Paper covers rock!\n")
         else:
             print("You lose! Scissors cuts paper!\n")
 
